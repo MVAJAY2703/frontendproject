@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Freaks</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Baloo+Bhai+2:wght@400..800&family=Baloo+Bhaina+2:wght@400..800&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    body {
+        background: url('images/ajay.jpg') no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: "Baloo Bhaina 2", sans-serif;
+    }
+
+    .left {
+        color: white;
+        display: inline-block;
+        position: absolute;
+        left: 24px;
+        top: 20px;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .mid {
+        display: block;
+        margin: 22px auto;
+        width: 45%;
+        color: white;
+    }
+
+
+    .right {
+        color: white;
+        display: inline-block;
+        position: absolute;
+        right: 24px;
+        top: 25px;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+
+    }
+
+    .navbar li a:hover {
+        color: paleturquoise;
+        text-decoration: underline;
+
+    }
+
+    .button {
+        background-color: black;
+        cursor: pointer;
+        font-size: 15px;
+        padding: 0px 10px;
+        border: 2px solid white;
+        border-radius: 7px;
+        font-family: "Baloo Bhaina 2", sans-serif;
+        color: white;
+
+    }
+
+    .button:hover {
+        background-color: grey;
+    }
+
+    .container {
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 24px;
+        color: white;
+    }
+    .formgroup input{
+        text-align: center;
+        border-radius: 8px;
+        display: block;
+        width: 400px;
+        padding:0px;
+        margin:11px auto;
+        font-size: 21px;
+        font-family: "Baloo Bhaina 2", sans-serif;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 33%;
+        margin:30px auto;
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- <img src="images/logo.jpg" alt=""> -->
+            <div>
+                FITNESS FREAKS!
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="button">
+                Call Us Now
+            </button>
+            <button class="button">
+                Email Us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym In Kovvur</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="ENTER YOUR NAME">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="ENTER YOUR GENDER">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="ENTER YOUR AGE">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="ENTER YOUR LOCALITY IN KOVVUR">
+            </div>
+            <button class="button">
+                Submit
+            </button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
